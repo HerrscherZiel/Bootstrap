@@ -1,0 +1,110 @@
+
+
+body{
+	background-image: url("asset/714226.png");
+	color:#fff;
+	font:18px/28px sans-serif;
+	background-repeat: : no-repeat;
+	background-position: fixed;
+	
+}
+
+a, a:hover, a:focus{
+	color: green;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family:'Coustard', sans-serif;
+	margin:0;
+	padding:0;
+	font-weight:300;
+}
+h1{
+	font-size:72px;
+}
+h2{
+	font-size:40px;
+}
+h3{
+	font-size:36px;
+}
+h4{
+	font-size:30px;
+}
+h5{
+	font-size:24px;
+}
+h6{
+	font-size:18px;
+}
+
+	 
+.main-head{
+		text-align:center;
+		padding:0 0 40px;
+	}
+
+.main-head h2{
+			padding:0 0 20px;
+		}
+
+.main-head p{
+			font-size:24px;
+			line-height:36px;
+		}
+		
+
+#services{
+}
+.sblock{border:1px solid transparent; 
+					       }
+.sblock:hover { border:1px solid rgba(5, 195, 249, 0.5); background:rgba(5, 195, 249, 0.5); }
+
+#services p { font-size:16px; }
+	
+
+.services-overlay{
+		background:rgba(0, 0, 0, 0.7);
+		padding:70px 0;
+	}
+	#services-blocks{
+	}
+		#services-blocks div{
+			text-align:center;
+			padding:20px 20px 30px 20px;
+		}
+			#services-blocks div span.fa{
+				
+				width:110px;
+				height:110px;
+				line-height:110px;
+				font-size:60px;
+				
+				color:rgba(255,255,255,1);
+
+			}
+			#services-blocks h4{
+				padding:20px 0;
+			}
+
+#contact{
+	background:rgba(0, 0, 0, 0.7);
+}
+
+.nama {
+	text-align: center;
+}	
+
+@media (max-width: 767px) {
+
+body{
+	background-position: absolute;
+}
+
+#contact {
+		text-align:center;
+	}
+
+
+} 
